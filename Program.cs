@@ -27,8 +27,8 @@ class Program
         // 'data.Length' retorna o tamanho total da string (quantidade de caracteres).  
         // Como os índices começam em 0, o último caractere está na posição Length - 1.
 
-        char type = 's'; // por padrão cado o usuario não digite o tempo.
-        type = char.Parse(data.Substring(data.Length - 1, 1)); // Pega o último caractere
+
+        char type = char.Parse(data.Substring(data.Length - 1, 1)); // Pega o último caractere
         int time = int.Parse(data.Substring(0, data.Length - 1)); // Pega todos os caracteres antes do último caractere.
         int multiplier = 1;
 
